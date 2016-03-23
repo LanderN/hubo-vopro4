@@ -8,5 +8,5 @@ module.exports = (robot) ->
 
   room = "C0M9L6BTQ"
 
-  everyFiveMinutes = ->
+  remindTimesheets = ->
     robot.messageRoom room, 'Vergeet de timesheets niet!'
