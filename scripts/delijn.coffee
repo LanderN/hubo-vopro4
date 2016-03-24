@@ -1,5 +1,17 @@
 # Description:
-#   Defines periodic executions
+#   Voegt enkele functies toe met betrekking tot het projet De Lijn van VOP Groep 4.
+#
+#
+# Configuration:
+#   HUBOT_DELIJN_USER
+#   HUBOT_DELIJN_PASS
+#
+# Commands:
+#   hubot toon de bussen - toont alle bussen die in het systeem zitten
+#   hubot toon de depots - toont alle depots die in het systeem zitten
+#
+# Author:
+#   LanderN
 
 username = process.env.HUBOT_DELIJN_USER
 password = process.env.HUBOT_DELIJN_PASS

@@ -9,4 +9,4 @@ module.exports = (robot) ->
   room = "C0M9L6BTQ"
 
   remindTimesheets = ->
-    robot.messageRoom room, 'Vergeet de timesheets niet!'
+    robot.messageRoom room, 'Vergeet de timesheets niet (deadline om 16u00)!'
